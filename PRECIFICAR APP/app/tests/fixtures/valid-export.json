@@ -1,0 +1,663 @@
+{
+  "version": 1,
+  "revision": 4,
+  "ingredients": [
+    {
+      "id": "leite",
+      "name": "Leite condensado",
+      "category": "ingredient",
+      "price": 7.5,
+      "quantity": 395,
+      "unit": "g",
+      "brand": "",
+      "emoji": "🥫",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "creme",
+      "name": "Creme de leite",
+      "category": "ingredient",
+      "price": 3.5,
+      "quantity": 200,
+      "unit": "g",
+      "brand": "",
+      "emoji": "🥛",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "cacau",
+      "name": "Chocolate em pó",
+      "category": "ingredient",
+      "price": 14,
+      "quantity": 200,
+      "unit": "g",
+      "brand": "",
+      "emoji": "🍫",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "forminha",
+      "name": "Forminha rosa",
+      "category": "packaging",
+      "price": 10,
+      "quantity": 100,
+      "unit": "un",
+      "brand": "",
+      "emoji": "🧁",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "chocolate",
+      "name": "Chocolate meio amargo",
+      "category": "ingredient",
+      "price": 30,
+      "quantity": 1,
+      "unit": "kg",
+      "brand": "",
+      "emoji": "🍫",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "manteiga",
+      "name": "Manteiga",
+      "category": "ingredient",
+      "price": 12,
+      "quantity": 200,
+      "unit": "g",
+      "brand": "",
+      "emoji": "🧈",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "farinha",
+      "name": "Farinha de trigo",
+      "category": "ingredient",
+      "price": 6,
+      "quantity": 1,
+      "unit": "kg",
+      "brand": "",
+      "emoji": "🌾",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "acucar",
+      "name": "Açúcar",
+      "category": "ingredient",
+      "price": 5,
+      "quantity": 1,
+      "unit": "kg",
+      "brand": "",
+      "emoji": "🍚",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "ovo",
+      "name": "Ovos",
+      "category": "ingredient",
+      "price": 12,
+      "quantity": 12,
+      "unit": "un",
+      "brand": "",
+      "emoji": "🥚",
+      "updatedAt": "2026-10-23"
+    },
+    {
+      "id": "pote",
+      "name": "Pote com tampa",
+      "category": "packaging",
+      "price": 20,
+      "quantity": 20,
+      "unit": "un",
+      "brand": "",
+      "emoji": "🥡",
+      "updatedAt": "2026-10-23"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "brigadeiro",
+      "name": "Brigadeiro clássico",
+      "yield": 50,
+      "yieldUnit": "un",
+      "minutes": 72,
+      "productionMinutes": 72,
+      "directCost": 2,
+      "items": [
+        {
+          "id": "leite",
+          "quantity": 395,
+          "unit": "g",
+          "type": "ingredient"
+        },
+        {
+          "id": "creme",
+          "quantity": 200,
+          "unit": "g",
+          "type": "ingredient"
+        },
+        {
+          "id": "cacau",
+          "quantity": 100,
+          "unit": "g",
+          "type": "ingredient"
+        }
+      ],
+      "packaging": [
+        {
+          "id": "forminha",
+          "quantity": 50,
+          "unit": "un"
+        }
+      ],
+      "weightGrams": 1000,
+      "category": "Docinhos",
+      "margin": 50,
+      "price": 1.8,
+      "image": "brigadeiro",
+      "notes": "Exemplo de precificação. Substitua pelos ingredientes e pelo rendimento real da sua receita.",
+      "priceScenario": "pix"
+    },
+    {
+      "id": "brownie",
+      "name": "Brownie tradicional",
+      "yield": 12,
+      "yieldUnit": "un",
+      "minutes": 60,
+      "productionMinutes": 90,
+      "directCost": 3,
+      "items": [
+        {
+          "id": "chocolate",
+          "quantity": 200,
+          "unit": "g",
+          "type": "ingredient"
+        },
+        {
+          "id": "manteiga",
+          "quantity": 100,
+          "unit": "g",
+          "type": "ingredient"
+        },
+        {
+          "id": "acucar",
+          "quantity": 200,
+          "unit": "g",
+          "type": "ingredient"
+        },
+        {
+          "id": "farinha",
+          "quantity": 100,
+          "unit": "g",
+          "type": "ingredient"
+        },
+        {
+          "id": "ovo",
+          "quantity": 3,
+          "unit": "un",
+          "type": "ingredient"
+        }
+      ],
+      "packaging": [
+        {
+          "id": "forminha",
+          "quantity": 12,
+          "unit": "un"
+        }
+      ],
+      "weightGrams": 900,
+      "category": "Brownies",
+      "margin": 40,
+      "price": 5.9,
+      "image": "brownie",
+      "notes": "Informe o rendimento vendável depois de assar e cortar."
+    },
+    {
+      "id": "ganache",
+      "name": "Ganache de chocolate",
+      "yield": 400,
+      "yieldUnit": "g",
+      "minutes": 15,
+      "productionMinutes": 15,
+      "directCost": 1,
+      "items": [
+        {
+          "id": "chocolate",
+          "quantity": 200,
+          "unit": "g",
+          "type": "ingredient"
+        },
+        {
+          "id": "creme",
+          "quantity": 200,
+          "unit": "g",
+          "type": "ingredient"
+        }
+      ],
+      "packaging": [],
+      "weightGrams": 400,
+      "category": "Receita base",
+      "margin": 40,
+      "price": 0.08,
+      "image": "brigadeiro",
+      "notes": "Receita base. Ao usar em outra receita, some o tempo de preparo ao tempo total do produto final."
+    }
+  ],
+  "sheets": [
+    {
+      "id": "daa05f07-68c3-4a58-bf5d-59bc871e0792",
+      "recipeId": "brigadeiro",
+      "name": "Brigadeiro clássico",
+      "createdAt": "2026-10-23T16:54:09.172Z",
+      "recipe": {
+        "id": "brigadeiro",
+        "name": "Brigadeiro clássico",
+        "yield": 50,
+        "yieldUnit": "un",
+        "minutes": 72,
+        "productionMinutes": 72,
+        "directCost": 2,
+        "items": [
+          {
+            "id": "leite",
+            "quantity": 395,
+            "unit": "g",
+            "type": "ingredient"
+          },
+          {
+            "id": "creme",
+            "quantity": 200,
+            "unit": "g",
+            "type": "ingredient"
+          },
+          {
+            "id": "cacau",
+            "quantity": 100,
+            "unit": "g",
+            "type": "ingredient"
+          }
+        ],
+        "packaging": [
+          {
+            "id": "forminha",
+            "quantity": 50,
+            "unit": "un"
+          }
+        ],
+        "weightGrams": 1000,
+        "category": "Docinhos",
+        "margin": 40,
+        "price": 1.5,
+        "image": "brigadeiro",
+        "notes": "Exemplo de precificação. Substitua pelos ingredientes e pelo rendimento real da sua receita."
+      },
+      "ingredients": [
+        {
+          "id": "leite",
+          "name": "Leite condensado",
+          "category": "ingredient",
+          "price": 7.5,
+          "quantity": 395,
+          "unit": "g",
+          "brand": "",
+          "emoji": "🥫",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "creme",
+          "name": "Creme de leite",
+          "category": "ingredient",
+          "price": 3.5,
+          "quantity": 200,
+          "unit": "g",
+          "brand": "",
+          "emoji": "🥛",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "cacau",
+          "name": "Chocolate em pó",
+          "category": "ingredient",
+          "price": 14,
+          "quantity": 200,
+          "unit": "g",
+          "brand": "",
+          "emoji": "🍫",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "forminha",
+          "name": "Forminha rosa",
+          "category": "packaging",
+          "price": 10,
+          "quantity": 100,
+          "unit": "un",
+          "brand": "",
+          "emoji": "🧁",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "chocolate",
+          "name": "Chocolate meio amargo",
+          "category": "ingredient",
+          "price": 30,
+          "quantity": 1,
+          "unit": "kg",
+          "brand": "",
+          "emoji": "🍫",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "manteiga",
+          "name": "Manteiga",
+          "category": "ingredient",
+          "price": 12,
+          "quantity": 200,
+          "unit": "g",
+          "brand": "",
+          "emoji": "🧈",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "farinha",
+          "name": "Farinha de trigo",
+          "category": "ingredient",
+          "price": 6,
+          "quantity": 1,
+          "unit": "kg",
+          "brand": "",
+          "emoji": "🌾",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "acucar",
+          "name": "Açúcar",
+          "category": "ingredient",
+          "price": 5,
+          "quantity": 1,
+          "unit": "kg",
+          "brand": "",
+          "emoji": "🍚",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "ovo",
+          "name": "Ovos",
+          "category": "ingredient",
+          "price": 12,
+          "quantity": 12,
+          "unit": "un",
+          "brand": "",
+          "emoji": "🥚",
+          "updatedAt": "2026-10-23"
+        },
+        {
+          "id": "pote",
+          "name": "Pote com tampa",
+          "category": "packaging",
+          "price": 20,
+          "quantity": 20,
+          "unit": "un",
+          "brand": "",
+          "emoji": "🥡",
+          "updatedAt": "2026-10-23"
+        }
+      ],
+      "settings": {
+        "monthlyPay": 1800,
+        "workHours": 120,
+        "productiveHours": 120,
+        "fixedCosts": [
+          {
+            "name": "Parcela do espaço de produção",
+            "value": 150
+          },
+          {
+            "name": "Manutenção e utensílios",
+            "value": 50
+          }
+        ],
+        "taxRate": 0
+      },
+      "scenario": {
+        "id": "pix",
+        "name": "Venda direta · Pix",
+        "fee": 0,
+        "margin": 50,
+        "icon": "pix"
+      },
+      "costs": {
+        "ingredientCost": 18,
+        "packagingCost": 5,
+        "laborCost": 18,
+        "fixedCost": 2,
+        "directCost": 2,
+        "totalCost": 45,
+        "unitCost": 0.9,
+        "laborHourly": 15,
+        "fixedHourly": 1.6666666666666667,
+        "ingredientLines": [
+          {
+            "id": "leite",
+            "type": "ingredient",
+            "name": "Leite condensado",
+            "quantity": 395,
+            "unit": "g",
+            "cost": 7.5
+          },
+          {
+            "id": "creme",
+            "type": "ingredient",
+            "name": "Creme de leite",
+            "quantity": 200,
+            "unit": "g",
+            "cost": 3.5000000000000004
+          },
+          {
+            "id": "cacau",
+            "type": "ingredient",
+            "name": "Chocolate em pó",
+            "quantity": 100,
+            "unit": "g",
+            "cost": 7.000000000000001
+          }
+        ],
+        "packagingLines": [
+          {
+            "id": "forminha",
+            "type": "ingredient",
+            "name": "Forminha rosa",
+            "quantity": 50,
+            "unit": "un",
+            "cost": 5
+          }
+        ]
+      },
+      "result": {
+        "price": 1.8,
+        "fees": 0,
+        "profit": 0.9,
+        "margin": 50,
+        "breakEven": 0.9,
+        "raw": 1.8,
+        "feeRate": 0
+      },
+      "simulation": false,
+      "recipes": [
+        {
+          "id": "brigadeiro",
+          "name": "Brigadeiro clássico",
+          "yield": 50,
+          "yieldUnit": "un",
+          "minutes": 72,
+          "productionMinutes": 72,
+          "directCost": 2,
+          "items": [
+            {
+              "id": "leite",
+              "quantity": 395,
+              "unit": "g",
+              "type": "ingredient"
+            },
+            {
+              "id": "creme",
+              "quantity": 200,
+              "unit": "g",
+              "type": "ingredient"
+            },
+            {
+              "id": "cacau",
+              "quantity": 100,
+              "unit": "g",
+              "type": "ingredient"
+            }
+          ],
+          "packaging": [
+            {
+              "id": "forminha",
+              "quantity": 50,
+              "unit": "un"
+            }
+          ],
+          "weightGrams": 1000,
+          "category": "Docinhos",
+          "margin": 40,
+          "price": 1.5,
+          "image": "brigadeiro",
+          "notes": "Exemplo de precificação. Substitua pelos ingredientes e pelo rendimento real da sua receita."
+        },
+        {
+          "id": "brownie",
+          "name": "Brownie tradicional",
+          "yield": 12,
+          "yieldUnit": "un",
+          "minutes": 60,
+          "productionMinutes": 90,
+          "directCost": 3,
+          "items": [
+            {
+              "id": "chocolate",
+              "quantity": 200,
+              "unit": "g",
+              "type": "ingredient"
+            },
+            {
+              "id": "manteiga",
+              "quantity": 100,
+              "unit": "g",
+              "type": "ingredient"
+            },
+            {
+              "id": "acucar",
+              "quantity": 200,
+              "unit": "g",
+              "type": "ingredient"
+            },
+            {
+              "id": "farinha",
+              "quantity": 100,
+              "unit": "g",
+              "type": "ingredient"
+            },
+            {
+              "id": "ovo",
+              "quantity": 3,
+              "unit": "un",
+              "type": "ingredient"
+            }
+          ],
+          "packaging": [
+            {
+              "id": "forminha",
+              "quantity": 12,
+              "unit": "un"
+            }
+          ],
+          "weightGrams": 900,
+          "category": "Brownies",
+          "margin": 40,
+          "price": 5.9,
+          "image": "brownie",
+          "notes": "Informe o rendimento vendável depois de assar e cortar."
+        },
+        {
+          "id": "ganache",
+          "name": "Ganache de chocolate",
+          "yield": 400,
+          "yieldUnit": "g",
+          "minutes": 15,
+          "productionMinutes": 15,
+          "directCost": 1,
+          "items": [
+            {
+              "id": "chocolate",
+              "quantity": 200,
+              "unit": "g",
+              "type": "ingredient"
+            },
+            {
+              "id": "creme",
+              "quantity": 200,
+              "unit": "g",
+              "type": "ingredient"
+            }
+          ],
+          "packaging": [],
+          "weightGrams": 400,
+          "category": "Receita base",
+          "margin": 40,
+          "price": 0.08,
+          "image": "brigadeiro",
+          "notes": "Receita base. Ao usar em outra receita, some o tempo de preparo ao tempo total do produto final."
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "pix",
+      "name": "Venda direta · Pix",
+      "fee": 0,
+      "margin": null,
+      "icon": "pix"
+    },
+    {
+      "id": "card",
+      "name": "Cartão",
+      "fee": 4,
+      "margin": null,
+      "icon": "card"
+    },
+    {
+      "id": "app",
+      "name": "Aplicativo",
+      "fee": 23,
+      "margin": null,
+      "icon": "app"
+    },
+    {
+      "id": "resale",
+      "name": "Revenda",
+      "fee": 0,
+      "margin": 25,
+      "icon": "store"
+    }
+  ],
+  "settings": {
+    "monthlyPay": 1800,
+    "workHours": 120,
+    "productiveHours": 120,
+    "fixedCosts": [
+      {
+        "name": "Parcela do espaço de produção",
+        "value": 150
+      },
+      {
+        "name": "Manutenção e utensílios",
+        "value": 50
+      }
+    ],
+    "taxRate": 0,
+    "defaultDirectCost": 2
+  },
+  "example": true
+}

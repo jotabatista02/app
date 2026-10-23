@@ -1,0 +1,1 @@
+{"version":1,"example":true,"ingredients":[],"recipes":[],"settings":{},"scenarios":[{"id":"pix","name":"Venda direta · Pix","fee":0,"margin":null,"icon":"pix"},{"id":"card","name":"Cartão","fee":4,"margin":null,"icon":"card"},{"id":"app","name":"Aplicativo","fee":23,"margin":null,"icon":"app"},{"id":"resale","name":"Revenda","fee":0,"margin":25,"icon":"store"}],"sheets":[]}
